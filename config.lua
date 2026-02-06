@@ -1,4 +1,3 @@
-_G.FishItConfig = _G.FishItConfig or{
     ["Fishing"] = {
         ["Auto Perfect"] = false,
         ["Random Result"] = true,
@@ -149,4 +148,3 @@ _G.FishItConfig = _G.FishItConfig or{
     ["AutoReconnect"] = false,
     ["HideGUI"] = false,
     ["EXIT_MAP_IF_DISCONNECT"] = false,
-}
