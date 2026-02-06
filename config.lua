@@ -1,3 +1,4 @@
+return {
     ["Fishing"] = {
         ["Auto Perfect"] = false,
         ["Random Result"] = true,
@@ -148,3 +149,4 @@
     ["AutoReconnect"] = false,
     ["HideGUI"] = false,
     ["EXIT_MAP_IF_DISCONNECT"] = false,
+}
