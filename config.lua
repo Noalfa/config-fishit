@@ -1,4 +1,4 @@
-_G.FishItConfig = _G.FishItConfig or {
+return {
     ["Fishing"] = {
         ["Auto Perfect"] = false,
         ["Random Result"] = true,
@@ -12,29 +12,29 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Accept Trade"] = true,
         ["Auto Friend Request"] = false,
     },
+
     ["Auto Trade"] = {
         ["Enabled"] = true,
         ["Whitelist Username"] = {"EV_Saputra"},
-        ["Category Fish"] = {
-            "Secret",
-        },
+        ["Category Fish"] = {"Secret"},
         ["Fish Name"] = {
             "Sacred Guardian Squid",
             {Name = "Ruby", Variant = "Gemstone"},
         },
-        ["Item Name"] = {
-            "Evolved Enchant Stone",
-        },
+        ["Item Name"] = {"Evolved Enchant Stone"},
     },
+
     ["Farm Coin Only"] = {
-        ["Enabled"] = false, -- Farm coins only [ cant buy rod, bait, enchant, weather ]
+        ["Enabled"] = false,
         ["Target"] = 190000,
     },
+
     ["Selling"] = {
         ["Auto Sell"] = true,
         ["Auto Sell Threshold"] = "Mythic",
         ["Auto Sell Every"] = 100,
     },
+
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
         ["Auto Element Rod"] = true,
@@ -50,44 +50,42 @@ _G.FishItConfig = _G.FishItConfig or {
             "Ghost Shark",
         },
         ["FARM_LOC_SECRET_SACRIFICE"] = "Ocean",
-
         ["Minimum Rod"] = "Astral Rod",
     },
+
     ["WebHook"] = {
-        ["Link Webhook"] = "https://discord.com/api/webhooks/1433684350469144659/ro3WJzL5BLpNxUh82VN6DNqNaabSiarFxrGlirZrTph0td3u-sDWOU-xSYUcJMEBklYn",
+        ["Link Webhook"] = "https://discord.com/api/webhooks/XXXXX",
         ["Auto Sending"] = true,
         ["Category"] = {"Secret"},
-
         ["Link Webhook Quest Complete"] = "",
     },
+
     ["Weather"] = {
         ["Auto Buying"] = true,
         ["Minimum Rod"] = "Element Rod",
-        ["Weather List"] = {
-            "Wind",
-            "Storm",
-            "Cloudy",
-        },
+        ["Weather List"] = {"Wind","Storm","Cloudy"},
     },
+
     ["Potions"] = {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Astral Rod",
     },
+
     ["Totems"] = {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
-        ["Buy List"] = {
-            "Mutation Totem",
-        },
+        ["Buy List"] = {"Mutation Totem"},
     },
+
     ["Event"] = {
         ["Start Farm"] = true,
         ["Minimum Rod"] = "Element Rod",
         ["Event List"] = {
-            "Megalodon Hunt",
+            ["Megalodon Hunt"] = true,
             ["Ancient Lochness Monster"] = true,
         },
     },
+
     ["Enchant"] = {
         ["Auto Enchant"] = true,
         ["Roll Enchant"] = false,
@@ -113,6 +111,7 @@ _G.FishItConfig = _G.FishItConfig or {
         },
         ["Minimum Rod"] = "Ghostfinn Rod",
     },
+
     ["Bait List"] = {
         ["Auto Buying"] = true,
         ["Buy List"] = {
@@ -124,6 +123,7 @@ _G.FishItConfig = _G.FishItConfig or {
         },
         ["Endgame"] = "Floral Bait",
     },
+
     ["Rod List"] = {
         ["Auto Buying"] = true,
         ["Buy List"] = {
@@ -135,8 +135,8 @@ _G.FishItConfig = _G.FishItConfig or {
         },
         ["Location Rods"] = {
             ["Fisherman Island"] = {"Starter Rod"},
-            ["Tropical Grove"] = {"Grass Rod", "Midnight Rod","Astral Rod"},
-            ["Treasure Room"] = {"Element Rod","Ghostfinn Rod", "Angler Rod", "Ares Rod"},
+            ["Tropical Grove"] = {"Grass Rod","Midnight Rod","Astral Rod"},
+            ["Treasure Room"] = {"Element Rod","Ghostfinn Rod","Angler Rod","Ares Rod"},
         },
         ["Endgame"] = "Element Rod",
     },
