@@ -1,4 +1,4 @@
-return {
+_G.FishItConfig = _G.FishItConfig or {
     ["Fishing"] = {
         ["Auto Perfect"] = false,
         ["Random Result"] = true,
