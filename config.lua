@@ -1,3 +1,4 @@
+setfpscap(20)
 _G.FishItConfig = _G.FishItConfig or {
     ["Fishing"] = {
         ["Auto Perfect"] = false,
