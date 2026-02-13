@@ -12,7 +12,7 @@ _G.FishItConfig = _G.FishItConfig or {
             -- {Tier = "Secret", Variant = "Leviathan Rage"},  -- Tier + Variant
         },
 
-        ["Auto Accept Trade"] = true,
+        ["Auto Accept Trade"] = false,
         ["Auto Friend Request"] = false,
     },
     ["Auto Trade"] = {
@@ -37,7 +37,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Selling"] = {
         ["Auto Sell"] = true,
-        ["Auto Sell Threshold"] = "Legendary",
+        ["Auto Sell Threshold"] = "Mythic",
         ["Auto Sell Every"] = 100,
     },
     ["Doing Quest"] = {
@@ -55,7 +55,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Blob Shark",
             "Ghost Shark",
         },
-        ["FARM_LOC_SECRET_SACRIFICE"] = "Ocean",
+        ["FARM_LOC_SECRET_SACRIFICE"] = "Treasure Room",
 
         ["Minimum Rod"] = "Astral Rod",
     },
@@ -67,8 +67,8 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Link Webhook Quest Complete"] = "",
     },
     ["Weather"] = {
-        ["Auto Buying"] = false,
-        ["Minimum Rod"] = "Astral Rod",
+        ["Auto Buying"] = true,
+        ["Minimum Rod"] = "Element Rod",
         ["Weather List"] = {
             "Wind",
         },
@@ -96,7 +96,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Enchant"] = {
         ["Auto Enchant"] = true,
         ["Roll Enchant"] = false,
-        ["Evolved Roll Enchant"] = true,
+        ["Evolved Roll Enchant"] = false,
         ["Enchant List"] = {
             "Reeler II",
             "SECRET Hunter",
@@ -127,7 +127,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Aether Bait",
             "Singularity Bait",
         },
-        ["Endgame"] = "Singularity Bait",
+        ["Endgame"] = "",
     },
     ["Rod List"] = {
         ["Auto Buying"] = true,
@@ -144,11 +144,11 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Tropical Grove"] = {"Astral Rod"},
             ["Treasure Room"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
         },
-        ["Endgame"] = "Element Rod",
+        ["Endgame"] = "",
     },
 
     ["ExtremeFpsBoost"] = true,
-    ["UltimatePerformance"] = true,
+    ["UltimatePerformance"] = false,
     ["Disable3DRender"] = false,
     ["AutoRemovePlayer"] = true,
 
