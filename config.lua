@@ -1,4 +1,3 @@
-setfpscap(20)
 _G.FishItConfig = _G.FishItConfig or {
     ["Fishing"] = {
         ["Auto Perfect"] = false,
@@ -7,10 +6,9 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Favorite"] = true,
         ["Auto Unfavorite"] = false,
         ["Fish Name"] = {
-            "Sacred Guardian Squid",
             {Name = "Ruby", Variant = "Gemstone"},
         },
-        ["Auto Accept Trade"] = true,
+        ["Auto Accept Trade"] = false,
         ["Auto Friend Request"] = false,
     },
     ["Auto Trade"] = {
@@ -20,7 +18,6 @@ _G.FishItConfig = _G.FishItConfig or {
             "Secret",
         },
         ["Fish Name"] = {
-            "Sacred Guardian Squid",
             {Name = "Ruby", Variant = "Gemstone"},
         },
         ["Item Name"] = {
@@ -135,9 +132,10 @@ _G.FishItConfig = _G.FishItConfig or {
             "Angler Rod",
         },
         ["Location Rods"] = {
-            ["Kohana Volcano"] = {"Starter Rod","Grass Rod", "Midnight Rod"},
-            ["Tropical Grove"] = {"Astral Rod"},
-            ["Treasure Room"] = {"Element Rod","Ghostfinn Rod", "Angler Rod", "Ares Rod"},
+            ["Fisherman Island"] = {"Starter Rod"},
+            ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
+            ["Kohana"] = {"Astral Rod"},
+            ["Treasure Room"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
         },
         ["Endgame"] = "Element Rod",
     },
@@ -147,7 +145,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Disable3DRender"] = false,
     ["AutoRemovePlayer"] = true,
 
-    ["AutoReconnect"] = false,
+    ["AutoReconnect"] = true,
     ["HideGUI"] = false,
     ["EXIT_MAP_IF_DISCONNECT"] = false,
 }
