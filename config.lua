@@ -12,12 +12,12 @@ _G.FishItConfig = _G.FishItConfig or {
             -- {Tier = "Secret", Variant = "Leviathan Rage"},  -- Tier + Variant
         },
 
-        ["Auto Accept Trade"] = false,
+        ["Auto Accept Trade"] = true,
         ["Auto Friend Request"] = false,
     },
     ["Auto Trade"] = {
         ["Enabled"] = false,
-        ["Whitelist Username"] = {"EV_Saputra"},
+        ["Whitelist Username"] = {""},
         ["Category Fish"] = {
             "Secret",
             -- {Tier = "Mythic", Variant = "Stone"}, -- Tier + Variant
@@ -42,9 +42,9 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
-        ["Auto Element Rod"] = true,
+        ["Auto Element Rod"] = false,
         ["Auto Diamond Rod"] = false,
-        ["Unlock Ancient Ruin"] = true,
+        ["Unlock Ancient Ruin"] = false,
         ["Allowed Sacrifice"] = {
             "Ghost Shark",
             "Cryoshade Glider",
@@ -55,7 +55,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Blob Shark",
             "Ghost Shark",
         },
-        ["FARM_LOC_SECRET_SACRIFICE"] = "Treasure Room",
+        ["FARM_LOC_SECRET_SACRIFICE"] = "Ocean",
 
         ["Minimum Rod"] = "Astral Rod",
     },
@@ -68,7 +68,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Weather"] = {
         ["Auto Buying"] = false,
-        ["Minimum Rod"] = "Element Rod",
+        ["Minimum Rod"] = "Astral Rod",
         ["Weather List"] = {
             "Wind",
         },
@@ -91,12 +91,15 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Event List"] = {
             "Megalodon Hunt",
+            "Ghost Shark Hunt",
+            "Shark Hunt",
+            -- ["Ancient Lochness Monster"] = true,
         },
     },
     ["Enchant"] = {
         ["Auto Enchant"] = true,
         ["Roll Enchant"] = false,
-        ["Evolved Roll Enchant"] = false,
+        ["Evolved Roll Enchant"] = true,
         ["Enchant List"] = {
             "Reeler II",
             "SECRET Hunter",
@@ -125,7 +128,6 @@ _G.FishItConfig = _G.FishItConfig or {
             "Chroma Bait",
             "Corrupt Bait",
             "Aether Bait",
-            "Singularity Bait",
         },
         ["Endgame"] = "",
     },
@@ -142,13 +144,13 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
             ["Tropical Grove"] = {"Astral Rod"},
-            ["Treasure Room"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
+            ["Kohana"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
         },
         ["Endgame"] = "",
     },
 
     ["ExtremeFpsBoost"] = true,
-    ["UltimatePerformance"] = true,
+    ["UltimatePerformance"] = false,
     ["Disable3DRender"] = false,
     ["AutoRemovePlayer"] = true,
 
