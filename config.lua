@@ -42,7 +42,8 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
-        ["Auto Element Rod"] = false,
+        ["Auto Element Rod"] = true,
+        
         ["Unlock Ancient Ruin"] = true,
         ["Allowed Sacrifice"] = {
             "Ghost Shark",
@@ -147,7 +148,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
 
     ["ExtremeFpsBoost"] = true,
-    ["UltimatePerformance"] = false,
+    ["UltimatePerformance"] = true,
     ["Disable3DRender"] = false,
     ["AutoRemovePlayer"] = true,
 
