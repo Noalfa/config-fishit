@@ -37,7 +37,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Selling"] = {
         ["Auto Sell"] = true,
-        ["Auto Sell Threshold"] = "Legendary",
+        ["Auto Sell Threshold"] = "Mythic",
         ["Auto Sell Every"] = 100,
     },
     ["Doing Quest"] = {
@@ -60,8 +60,8 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Astral Rod",
     },
     ["WebHook"] = {
-        ["Link Webhook"] = "",
-        ["Auto Sending"] = false,
+        ["Link Webhook"] = "https://discord.com/api/webhooks/1433684350469144659/ro3WJzL5BLpNxUh82VN6DNqNaabSiarFxrGlirZrTph0td3u-sDWOU-xSYUcJMEBklYn",
+        ["Auto Sending"] = true,
         ["Category"] = {"Secret"},
 
         ["Link Webhook Quest Complete"] = "",
@@ -91,6 +91,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Event List"] = {
             "Megalodon Hunt",
+            ["Ancient Lochness Monster"] = true,
         },
     },
     ["Enchant"] = {
