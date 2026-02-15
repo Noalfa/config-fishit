@@ -46,6 +46,11 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Diamond Rod"] = false,
         ["Unlock Ancient Ruin"] = true,
         ["Allowed Sacrifice"] = {
+            "King Jelly",
+            "Viridis Lurker",
+            "Great Whale",
+            "Mosasaur Shark",
+            "Robot Kraken",
             "Ghost Shark",
             "Cryoshade Glider",
             "Panther Eel",
