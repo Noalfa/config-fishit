@@ -8,6 +8,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Fish Name"] = {
             "Sacred Guardian Squid",
             {Name = "Ruby", Variant = "Gemstone"},
+            {Name = "Blob Fish", Variant = "Fairy Dust"},
             -- {Variant = "Leviathan Rage"}, -- Variant Only
             -- {Tier = "Secret", Variant = "Leviathan Rage"},  -- Tier + Variant
         },
@@ -131,8 +132,9 @@ _G.FishItConfig = _G.FishItConfig or {
             "Corrupt Bait",
             "Aether Bait",
             "Singularity Bait",
+            "Floral Bait",
         },
-        ["Endgame"] = "",
+        ["Endgame"] = "Floral Bait",
     },
     ["Rod List"] = {
         ["Auto Buying"] = true,
