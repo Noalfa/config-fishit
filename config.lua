@@ -132,9 +132,8 @@ _G.FishItConfig = _G.FishItConfig or {
             "Corrupt Bait",
             "Aether Bait",
             "Singularity Bait",
-            "Floral Bait",
         },
-        ["Endgame"] = "Floral Bait",
+        ["Endgame"] = "",
     },
     ["Rod List"] = {
         ["Auto Buying"] = true,
