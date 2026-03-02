@@ -79,11 +79,11 @@ _G.FishItConfig = _G.FishItConfig or {
         },
     },
     ["Potions"] = {
-        ["Auto Use"] = true,
+        ["Auto Use"] = false,
         ["Minimum Rod"] = "Astral Rod",
     },
     ["Totems"] = {
-        ["Auto Use"] = true,
+        ["Auto Use"] = false,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Buy List"] = {
             ["Luck Totem"] = 5,
